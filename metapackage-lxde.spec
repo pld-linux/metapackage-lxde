@@ -19,6 +19,7 @@ Requires:	lxshortcut
 Requires:	lxtask
 Requires:	lxterminal
 Requires:	menu-cache
+Requires:	pcmanfm
 # TODO
 #Requires:	gtknetcat
 #Requires:	lxdm
