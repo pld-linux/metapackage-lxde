@@ -18,6 +18,12 @@ Requires:	lxsession-edit
 Requires:	lxshortcut
 Requires:	lxtask
 Requires:	lxterminal
+Requires:	menu-cache
+# TODO
+#Requires:	gtknetcat
+#Requires:	lxdm
+#Requires:	lxlauncher
+#Requires:	lxmusic
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
