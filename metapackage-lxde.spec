@@ -1,7 +1,7 @@
 Summary:	LX Desktop Environment with additional packages
 Name:		metapackage-lxde
 Version:	0.1
-Release:	0.1
+Release:	1
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	gpicview
