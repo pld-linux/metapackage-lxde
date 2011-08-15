@@ -1,6 +1,6 @@
 Summary:	LX Desktop Environment with additional packages
 Name:		metapackage-lxde
-Version:	0.1
+Version:	0.2
 Release:	1
 License:	GPL/LGPL
 Group:		X11/Applications
@@ -12,6 +12,7 @@ Requires:	lxinput
 Requires:	lxmenu-data
 Requires:	lxnm
 Requires:	lxpanel
+Requires:	lxpolkit
 Requires:	lxrandr
 Requires:	lxsession
 Requires:	lxsession-edit
@@ -20,10 +21,11 @@ Requires:	lxtask
 Requires:	lxterminal
 Requires:	menu-cache
 Requires:	pcmanfm
+Suggests:	lxappearance-obconf
+Suggests:	lxdm
+Suggests:	lxlauncher
 # TODO
 #Requires:	gtknetcat
-#Requires:	lxdm
-#Requires:	lxlauncher
 #Requires:	lxmusic
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
