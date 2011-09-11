@@ -43,9 +43,6 @@ especially designed for cloud computers with low hardware
 specifications, such as, netbooks, mobile devices (e.g. MIDs) or older
 computers.
 
-%description -l pl.UTF-8
-Środowisko graficzne KDE4 z dodatkowymi pakietami (metapakiet).
-
 %prep
 
 %clean
