@@ -1,7 +1,7 @@
 Summary:	LX Desktop Environment with additional packages
 Name:		metapackage-lxde
 Version:	0.2
-Release:	2
+Release:	3
 License:	GPL/LGPL
 Group:		X11/Applications
 Requires:	gpicview
@@ -13,10 +13,8 @@ Requires:	lxinput
 Requires:	lxmenu-data
 Requires:	lxnm
 Requires:	lxpanel
-Requires:	lxpolkit
 Requires:	lxrandr
 Requires:	lxsession
-Requires:	lxsession-edit
 Requires:	lxshortcut
 Requires:	lxtask
 Requires:	lxterminal
